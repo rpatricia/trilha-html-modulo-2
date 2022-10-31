@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
 html, body {
     margin: 0;
 }
@@ -13,6 +22,7 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
@@ -23,15 +33,51 @@ body {
     background-color: aqua;
     padding: 10px 20px 0px;
 }
+
+.menu {
+    background: url(./image/banner3.jpg);
+}
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    background: url(./image/banner5.png);
+    
+}
+
+.header img {
+    width: 86px;
+    margin-top: 2rem;
+    border-radius: 8px;
+
+}
+
+.header.about {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background: url(./image/banner6.png);
+    
+}
+.header.contact {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background: url(./image/banner8.png);
+    
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+.content p {
+    margin: 60px auto;
+}
+
+.content video {
+    
+}
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
