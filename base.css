@@ -23,7 +23,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: var(--Grey);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
 }
@@ -111,6 +111,7 @@ h1 {
 
 .content p {
     margin: 60px auto;
+    
 }
 
 .video{
@@ -120,37 +121,61 @@ h1 {
 }
 
 .video video {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    margin-left: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 10px;
+margin-left: 20px;
 }
 
 .social a{
-    color: var(--primary-color);
-    margin-left: 20px;
-    font-size: 30px;
-    
+color: var(--primary-color);
+margin-left: 20px;
+font-size: 30px;
+
 }
     /* ABOUT */
 
-    .about-image {
-        display: flex;
-       width: 5%;
-       height: 5%;
-
+    .menu.about a{
+    color: white;
+    font-weight: 700;
+    color: var(--Grey);
+    font-size: 30px;
     }
-.footer {
-    background-color: var(--secondary-color);
-    min-height: 150px;
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 20px;
-    padding: 30px;
 
+    .menu.about a:hover {
+        color: var(--secondary-color);
+        border-bottom: 2px solid var(--secondary-color);
+    }
+
+    .image {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    gap: 12px;
+    }
+
+    .image img {
+    border-radius: 8px;
+    align-items: center;
+    margin-left: 22px;
+    }
+
+  .image img:hover {
+    background-color: var(--Grey);
+    }
+        
+        
+.footer {
+background-color: var(--secondary-color);
+min-height: 150px;
+text-align: center;
+color: var(--primary-color);
+font-size: 20px;
+padding: 30px;
+margin-top: 4rem;
 }
 
 span {
-    color: var(--white)
+color: var(--white)
 }
     
