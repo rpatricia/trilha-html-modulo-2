@@ -4,7 +4,7 @@
 * {
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -53,6 +53,7 @@ body {
 .navbar ul li a{
     color: var(--white);
     font-size: 30px;
+    text-decoration: none;
 }
 
 .navbar ul li a:hover {
@@ -140,11 +141,13 @@ font-size: 30px;
     font-weight: 700;
     color: var(--Grey);
     font-size: 30px;
+    text-decoration: none;
     }
 
     .menu.about a:hover {
         color: var(--secondary-color);
         border-bottom: 2px solid var(--secondary-color);
+        
     }
 
     .image {
@@ -162,6 +165,81 @@ font-size: 30px;
 
   .image img:hover {
     background-color: var(--Grey);
+    }
+
+    /* CONTACT */
+
+    .menu.contact a{
+    color: white;
+    font-weight: 700;
+    color: var(--Grey);
+    font-size: 30px;
+    text-decoration: none;
+        }
+
+        .menu.menu.contact a:hover {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            
+        }  
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+            font-size: 3rem;
+        }
+
+        .contact {
+            text-align: center;
+            font-weight: 700;
+        }
+
+    .informacoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+    }
+
+    /* .table {
+        border: 1px solid var(--secondary-color);
+    } */
+
+    table {
+        box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
+-webkit-box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
+-moz-box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
+
+        border: 2px solid var(--primary-color);
+    }
+
+    table thead th {
+        background-color: #c69b2a;
+        color: var(--primary-color);
+    }
+
+    table tfoot td {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        text-align: center;
+    }
+    .table {
+        width: 25rem;
+        height: 18.75rem;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: var(--secondary-color);
+        
+    }
+        
+    .table tr:hover td {
+        background-color: var(--Grey);
+        cursor: pointer;
+    }
+    table tbody tr td {
+        text-align: center;
     }
         
         
