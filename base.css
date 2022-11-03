@@ -71,7 +71,7 @@ body {
 }
 
 .header {
-    background-color: rgb(5, 108, 108);
+    /* background-color: rgb(5, 108, 108); */
     min-height: 150px;
     background: url(./image/banner5.png) ;
     
@@ -85,7 +85,7 @@ body {
 }
 
 .header.about {
-    background-color: rgb(5, 108, 108);
+    /* background-color: rgb(5, 108, 108); */
     min-height: 150px;
     background: url(./image/banner6.png);
     
@@ -95,6 +95,12 @@ body {
     min-height: 150px;
     background: url(./image/banner8.png);
     
+}
+
+.header.form {
+    
+ min-height:150px ;   
+ background: url(./image/banner7.png);
 }
 
 h1 {
@@ -241,6 +247,51 @@ font-size: 30px;
     table tbody tr td {
         text-align: center;
     }
+
+    .contact-contact {
+        margin-top: 4rem;
+        
+    }
+
+    .contact-contact  a {
+        margin-right: 4rem;
+        text-decoration: none;
+        border: 1px solid var(--secondary-color);
+        padding: 1rem;
+    }
+    
+    /* FORM */
+
+    .form  {
+        text-align: center;
+    }
+    .menu.form a{
+        color: white;
+        font-weight: 700;
+        color: var(--Grey);
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .menu.menu.form a:hover {
+        color: var(--secondary-color);
+        border-bottom: 2px solid var(--secondary-color);
+    } 
+
+    .form-dados {
+        text-align: center;        
+        border: 2px solid var(--secondary-color);
+        padding: 4rem;
+    
+    }
+    
+        
+   .form-dados textarea {
+    width: 100%;
+    padding: 4rem;
+    background: none;
+   } 
+    
         
         
 .footer {
