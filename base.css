@@ -1,310 +1,294 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
-    font-family: 'Pacifico', cursive;
-    font-family: 'Poppins', sans-serif;
-    /* text-decoration: none; */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  /* text-decoration: none; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-color: #874629;
-    --secondary-color: #c69b2a;
-    --Grey: #d4c389;
-    --white: #fff;
+  --primary-color: #874629;
+  --secondary-color: #c69b2a;
+  --Grey: #d4c389;
+  --white: #fff;
 }
 
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 body {
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    width: 1400px;
-    display: flex;
-    margin: 0 auto;
-    /* background-color: aquamarine; */
-    
+  width: 1400px;
+  display: flex;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
 }
 
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 85%;
 }
 .menu {
-    width: 15%;
-    /* background-color: aqua; */
-    padding: 10px 20px 0px;
-    color: white;
-    font-weight: 700;
-    color: var(--Grey);
+  width: 15%;
+  /* background-color: aqua; */
+  padding: 10px 20px 0px;
+  color: white;
+  font-weight: 700;
+  color: var(--Grey);
 }
 
-.navbar ul li a{
-    color: var(--white);
-    font-size: 30px;
-    text-decoration: none;
+.navbar ul li a {
+  color: var(--white);
+  font-size: 30px;
+  text-decoration: none;
 }
 
 .navbar ul li a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .navbar ul li a:hover {
-    border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
-
 .menu {
-    background: url(./image/banner3.jpg);
-    
+  background: url(./image/banner3.jpg);
 }
 
 .header {
-    /* background-color: rgb(5, 108, 108); */
-    min-height: 150px;
-    background: url(./image/banner5.png) ;
-    
+  /* background-color: rgb(5, 108, 108); */
+  min-height: 150px;
+  background: url(./image/banner5.png);
 }
 
 .header img {
-    width: 86px;
-    margin-top: 2rem;
-    border-radius: 8px;
-
+  width: 86px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 8px;
 }
 
 .header.about {
-    /* background-color: rgb(5, 108, 108); */
-    min-height: 150px;
-    background: url(./image/banner6.png);
-    
+  /* background-color: rgb(5, 108, 108); */
+  min-height: 150px;
+  background: url(./image/banner6.png);
 }
 .header.contact {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
-    background: url(./image/banner8.png);
-    
+  background-color: rgb(5, 108, 108);
+  min-height: 150px;
+  background: url(./image/banner8.png);
 }
 
 .header.form {
-    
- min-height:150px ;   
- background: url(./image/banner7.png);
+  min-height: 150px;
+  background: url(./image/banner7.png);
 }
 
 h1 {
-    text-align: center;
-    font-size: 80px;
-    color: var(--secondary-color);
-    font-family: 'Pacifico', cursive;
-    margin-top: -160px;
+  text-align: center;
+  font-size: 80px;
+  color: var(--secondary-color);
+  font-family: "Pacifico", cursive;
+  margin-top: -160px;
 }
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
 }
 
 .content p {
-    margin: 60px auto;
-    
+  margin: 60px auto;
 }
 
-.video{
-    text-align: center;
-    background: var(--primary-color);
-   
+.video {
+  text-align: center;
+  background: var(--primary-color);
 }
 
 .video video {
-margin-top: 40px;
-margin-bottom: 40px;
-border-radius: 10px;
-margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
-.social a{
-color: var(--primary-color);
-margin-left: 20px;
-font-size: 30px;
-
+.social a {
+  color: var(--primary-color);
+  margin-left: 20px;
+  font-size: 30px;
 }
-    /* ABOUT */
+/* ABOUT */
 
-    .menu.about a{
-    color: white;
-    font-weight: 700;
-    color: var(--Grey);
-    font-size: 30px;
-    text-decoration: none;
-    }
+.menu.about a {
+  color: white;
+  font-weight: 700;
+  color: var(--Grey);
+  font-size: 30px;
+  text-decoration: none;
+}
 
-    .menu.about a:hover {
-        color: var(--secondary-color);
-        border-bottom: 2px solid var(--secondary-color);
-        
-    }
+.menu.about a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
 
-    .image {
-    display: flex;
-    width: 15rem;
-    height: 15rem;
-    gap: 12px;
-    }
+.image {
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  gap: 12px;
+}
 
-    .image img {
-    border-radius: 8px;
-    align-items: center;
-    margin-left: 22px;
-    }
+.image img {
+  border-radius: 8px;
+  align-items: center;
+  margin-left: 22px;
+}
 
-  .image img:hover {
-    background-color: var(--Grey);
-    }
+.image img:hover {
+  background-color: var(--Grey);
+}
 
-    /* CONTACT */
+/* CONTACT */
 
-    .menu.contact a{
-    color: white;
-    font-weight: 700;
-    color: var(--Grey);
-    font-size: 30px;
-    text-decoration: none;
-        }
+.menu.contact a {
+  color: white;
+  font-weight: 700;
+  color: var(--Grey);
+  font-size: 30px;
+  text-decoration: none;
+}
 
-        .menu.menu.contact a:hover {
-            color: var(--secondary-color);
-            border-bottom: 2px solid var(--secondary-color);
-            
-        }  
-        
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: var(--secondary-color);
-            font-size: 3rem;
-        }
+.menu.menu.contact a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
 
-        .contact {
-            text-align: center;
-            font-weight: 700;
-        }
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
 
-    .informacoes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8rem;
-    }
+.contact {
+  text-align: center;
+  /* font-weight: 700; */
+}
 
-    /* .table {
+.informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+/* .table {
         border: 1px solid var(--secondary-color);
     } */
 
-    table {
-        box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
--webkit-box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
--moz-box-shadow: 19px 22px 12px 0px rgba(0,0,0,0.34);
+table {
+  box-shadow: 19px 22px 12px 0px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 19px 22px 12px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 19px 22px 12px 0px rgba(0, 0, 0, 0.34);
 
-        border: 2px solid var(--primary-color);
-    }
+  border: 2px solid var(--primary-color);
+}
 
-    table thead th {
-        background-color: #c69b2a;
-        color: var(--primary-color);
-    }
+table thead th {
+  background-color: #c69b2a;
+  color: var(--primary-color);
+}
 
-    table tfoot td {
-        background-color: var(--primary-color);
-        color: var(--secondary-color);
-        text-align: center;
-    }
-    .table {
-        width: 25rem;
-        height: 18.75rem;
-    }
+table tfoot td {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+.table {
+  width: 25rem;
+  height: 18.75rem;
+}
 
-    .table tr:nth-child(even) {
-        background-color: var(--secondary-color);
-        
-    }
-        
-    .table tr:hover td {
-        background-color: var(--Grey);
-        cursor: pointer;
-    }
-    table tbody tr td {
-        text-align: center;
-    }
+.table tr:nth-child(even) {
+  background-color: var(--secondary-color);
+}
 
-    .contact-contact {
-        margin-top: 4rem;
-        
-    }
+.table tr:hover td {
+  background-color: var(--Grey);
+  cursor: pointer;
+}
+table tbody tr td {
+  text-align: center;
+}
 
-    .contact-contact  a {
-        margin-right: 4rem;
-        text-decoration: none;
-        border: 1px solid var(--secondary-color);
-        padding: 1rem;
-    }
-    
-    /* FORM */
+.contact-contact {
+  margin-top: 4rem;
+}
 
-    .form  {
-        text-align: center;
-    }
-    .menu.form a{
-        color: white;
-        font-weight: 700;
-        color: var(--Grey);
-        font-size: 30px;
-        text-decoration: none;
-    }
+.contact-contact a {
+  margin-right: 4rem;
+  text-decoration: none;
+  border: 1px solid var(--secondary-color);
+  padding: 1rem;
+  color: var(--primary-color);
+}
+.contact-contact a:hover {
+    background-color: var(--Grey);
+}
+/* FORM */
 
-    .menu.menu.form a:hover {
-        color: var(--secondary-color);
-        border-bottom: 2px solid var(--secondary-color);
-    } 
+.form {
+  text-align: center;
+}
+.menu.form a {
+  color: white;
+  font-weight: 700;
+  color: var(--Grey);
+  font-size: 30px;
+  text-decoration: none;
+}
 
-    .form-dados {
-        text-align: center;        
-        border: 2px solid var(--secondary-color);
-        padding: 4rem;
-    
-    }
-    
-        
-   .form-dados textarea {
-    width: 100%;
-    padding: 4rem;
-    background: none;
-   } 
-    
-        
-        
+.menu.menu.form a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.form-dados {
+  text-align: center;
+  border: 2px solid var(--secondary-color);
+  padding: 4rem;
+}
+
+.form-dados textarea {
+  width: 100%;
+  padding: 4rem;
+  background: none;
+}
+
 .footer {
-background-color: var(--secondary-color);
-min-height: 150px;
-text-align: center;
-color: var(--primary-color);
-font-size: 20px;
-padding: 30px;
-margin-top: 4rem;
+  background-color: var(--secondary-color);
+  min-height: 150px;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 4rem;
 }
 
 span {
-color: var(--white)
+  color: var(--white);
 }
-    
