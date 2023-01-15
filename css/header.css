@@ -1,0 +1,18 @@
+
+
+.header img {
+    width: 86px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+  }
+  
+  
+  .header.contact {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background: url(./image/banner8.png);
+  }
+  
+  
+  

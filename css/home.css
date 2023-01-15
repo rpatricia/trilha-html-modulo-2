@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: var(--secondary-color);
+    font-family: "Pacifico", cursive;
+    margin-top: -160px;
+  }
+
+  .content p {
+    margin: 60px auto;
+  }
+
+  u {
+    text-decoration: underline;
+  }
+  
+  .video {
+    text-align: center;
+    background: var(--primary-color);
+  }
+  
+  .video video {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  

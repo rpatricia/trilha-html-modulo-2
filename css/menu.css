@@ -1,0 +1,30 @@
+.menu {
+    width: 15%;
+    /* background-color: aqua; */
+    padding: 10px 20px 0px;
+    color: white;
+    font-weight: 700;
+    color: var(--Grey);
+        
+  } 
+    
+  
+  
+  
+  .navbar ul li a {
+    color: var(--white);
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .navbar ul li a:hover {
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  /* .menu {
+    background: url(./image/banner3.jpg);
+  } */

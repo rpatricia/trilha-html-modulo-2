@@ -1,0 +1,33 @@
+/* FORM */
+.header.form {
+  min-height: 150px;
+  background: url(./image/banner7.png);
+}
+.form {
+    text-align: center;
+  }
+  .menu.form a {
+    color: white;
+    font-weight: 700;
+    color: var(--Grey);
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .menu.menu.form a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  .form-dados {
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    padding: 4rem;
+  }
+  
+  .form-dados textarea {
+    width: 100%;
+    padding: 4rem;
+    background: none;
+  }
+

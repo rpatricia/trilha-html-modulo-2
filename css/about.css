@@ -1,0 +1,37 @@
+
+.header.about {
+    /* background-color: rgb(5, 108, 108); */
+    min-height: 150px;
+    background: url(./image/banner6.png);
+  }
+
+  
+.menu.about a {
+    color: white;
+    font-weight: 700;
+    color: var(--Grey);
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .menu.about a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+
+.image {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    gap: 12px;
+  }
+  
+  .image img {
+    border-radius: 8px;
+    align-items: center;
+    margin-left: 22px;
+  }
+  
+  .image img:hover {
+    background-color: var(--Grey);
+  }

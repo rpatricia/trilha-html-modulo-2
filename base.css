@@ -65,6 +65,8 @@ body {
 
 .menu {
   background: url(./image/banner3.jpg);
+  
+
 }
 
 .header {
@@ -271,6 +273,7 @@ table tbody tr td {
   text-align: center;
   border: 2px solid var(--secondary-color);
   padding: 4rem;
+  /* width: 40rem; */
 }
 
 .form-dados textarea {
@@ -287,6 +290,8 @@ table tbody tr td {
   font-size: 20px;
   padding: 30px;
   margin-top: 4rem;
+  
+  
 }
 
 span {
